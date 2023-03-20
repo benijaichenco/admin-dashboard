@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+* {
+    font-family: 'Rubik', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    grid-template-rows: 200px 1fr;
+}
+
+.sidebar {
+    background-color: blue;
+    grid-row: span 2;
+    display: grid;
+}
+
+.header {
+    background-color: green;
+    display: grid;
+}
+
+.main {
+    background-color: red;
+    display: grid;
+}
