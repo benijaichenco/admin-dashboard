@@ -22,6 +22,7 @@ body {
     background-color: blue;
     grid-row: span 2;
     display: grid;
+    padding: 15px;
 }
 
 .sidebar .logo {
