@@ -72,12 +72,95 @@ body {
 
 .header {
     z-index: 2;
+    padding: 10px 40px;
     background-color: green;
     display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 2fr;
+    align-items: center;
+    column-gap: 20px;
+    background-color: white;
+    box-shadow: 0 5px 5px rgb(183, 183, 183);
 }
 
 .header img {
     height: 30px;
+}
+
+.header .search {
+    display: grid;
+    grid-template-columns: min-content 1fr;
+    gap: 10px;
+}
+
+.header .search input {
+    background-color: #e2e8f0;
+    width: 100%;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    height: 30px;
+    font-size: 1.1rem;
+}
+
+.header .search input:focus {
+    border: none;
+    outline: 2px solid #0ea5e9;
+    box-shadow: 0 0 5px 0 black;
+}
+
+.header .notifications {
+    justify-self: end;
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(3, max-content);
+    gap: 30px;
+}
+
+.header .notifications .photo {
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    background-color: #0ea5e9;
+}
+
+.header .user-info {
+    display: grid;
+    grid-template-columns: max-content max-content;
+    align-items: center;
+    gap: 20px;
+}
+
+.header .user-info .photo {
+    height: 70px;
+    width: 70px;
+    background-color: #0ea5e9;
+    border-radius: 100%;
+}
+
+.header .user-info .welcome {
+    font-size: 0.85rem;
+}
+
+.header .user-info .user-name {
+    font-size: 1.5rem;
+}
+
+.header .buttons {
+    justify-self: end;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.header .buttons button {
+    height: 40px;
+    width: 100px;
+    border: none;
+    border-radius: 20px;
+    background-color: #0ea5e9;
+    color: white;
+    font-size: 1.1rem;
 }
 
 
