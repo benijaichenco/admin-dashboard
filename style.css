@@ -167,6 +167,6 @@ body {
 
 .main {
     z-index: 1;
-    background-color: red;
+    background-color: #e2e8f0;
     display: grid;
 }
