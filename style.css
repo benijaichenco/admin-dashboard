@@ -19,7 +19,7 @@ body {
 }
 
 .sidebar {
-    background-color: blue;
+    background-color: #0ea5e9;
     grid-row: span 2;
     display: grid;
     padding: 15px;
