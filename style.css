@@ -24,6 +24,13 @@ body {
     display: grid;
 }
 
+.sidebar .logo img {
+    height: 50px;
+    filter: invert(1);
+}
+
+
+
 .header {
     background-color: green;
     display: grid;
