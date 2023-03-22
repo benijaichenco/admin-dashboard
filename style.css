@@ -46,6 +46,7 @@ body {
 }
 
 .sidebar ul {
+    padding-left: 20px;
     list-style: none;
     display: grid;
     row-gap: 15px;
