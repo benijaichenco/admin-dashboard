@@ -171,3 +171,7 @@ body {
     display: grid;
     grid-template-columns: 3fr 1fr;
 }
+
+.main .projects {
+    grid-row: span 2;
+}
