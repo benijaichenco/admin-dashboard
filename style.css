@@ -189,3 +189,25 @@ body {
 .main .projects .title {
     grid-column: span 2;
 }
+
+.main .projects .card {
+    background-color: white;
+    border-left: solid 5px #0ea5e9;
+    border-radius: 10px;
+    padding: 20px;
+    display: grid;
+    grid-template-rows: repeat(3, max-content);
+}
+
+.projects .card-title {
+    font-size: 1.1rem;
+}
+
+.projects .card .text {
+    margin: 5px 0 20px 0;
+    color: #64748b;
+}
+
+.projects .card .icons {
+    justify-self: end;
+}
