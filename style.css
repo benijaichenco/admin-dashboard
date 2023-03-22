@@ -175,7 +175,7 @@ body {
     gap: 20px;
 }
 
-.main .projects {
+.projects {
     grid-row: span 2;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -183,15 +183,15 @@ body {
     gap: 20px;
 }
 
-.main .projects img {
+.projects img {
     height: 22px;
 }
 
-.main .projects .title {
+.projects .title {
     grid-column: span 2;
 }
 
-.main .projects .card {
+.projects .card {
     background-color: white;
     border-left: solid 5px #0ea5e9;
     border-radius: 10px;
