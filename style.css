@@ -178,7 +178,7 @@ body {
     grid-row: span 2;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: max-content repeat(3, minmax(180px, max-content));
+    grid-template-rows: max-content repeat(3, minmax(265px, max-content));
     gap: 20px;
 }
 
