@@ -248,3 +248,10 @@ body {
     grid-template-rows: max-content 1fr;
     gap: 20px;
 }
+
+.trending .section .photo {
+    height: 50px;
+    width: 50px;
+    background-color: #0ea5e9;
+    border-radius: 100%;
+}
