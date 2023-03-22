@@ -19,6 +19,7 @@ body {
 }
 
 .sidebar {
+    z-index: 3;
     background-color: #0ea5e9;
     grid-row: span 2;
     display: grid;
@@ -70,11 +71,13 @@ body {
 
 
 .header {
+    z-index: 2;
     background-color: green;
     display: grid;
 }
 
 .main {
+    z-index: 1;
     background-color: red;
     display: grid;
 }
