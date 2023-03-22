@@ -29,6 +29,10 @@ body {
     filter: invert(1);
 }
 
+.sidebar .logo h3 {
+    font-size: 3rem;
+}
+
 
 
 .header {
