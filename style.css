@@ -285,3 +285,6 @@ body {
 .trending .bio {
     color: #64748b;
 }
+
+.card {
+    box-shadow: 0 2px 5px 0 #64748b;
