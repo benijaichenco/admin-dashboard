@@ -43,6 +43,26 @@ body {
     margin: 0;
 }
 
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar ul img {
+    height: 35px;
+    filter: invert(1);
+}
+
+.sidebar ul a {
+    display: grid;
+    grid-template-columns: min-content max-content;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 17px;
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
 
 
 .header {
