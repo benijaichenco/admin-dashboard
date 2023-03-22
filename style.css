@@ -76,6 +76,12 @@ body {
     display: grid;
 }
 
+.header img {
+    height: 30px;
+}
+
+
+
 .main {
     z-index: 1;
     background-color: red;
