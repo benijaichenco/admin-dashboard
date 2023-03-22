@@ -167,6 +167,7 @@ body {
 
 .main {
     z-index: 1;
+    padding: 30px;
     background-color: #e2e8f0;
     display: grid;
     grid-template-columns: 3fr 1fr;
