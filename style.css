@@ -185,3 +185,7 @@ body {
 .main .projects img {
     height: 22px;
 }
+
+.main .projects .title {
+    grid-column: span 2;
+}
