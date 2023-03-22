@@ -73,7 +73,6 @@ body {
 .header {
     z-index: 2;
     padding: 10px 40px;
-    background-color: green;
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 1fr 2fr;
