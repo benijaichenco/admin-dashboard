@@ -215,7 +215,7 @@ body {
 
 .announcements {
     display: grid;
-    grid-template-rows: max-content 1fr;
+    grid-template-rows: max-content max-content;
     gap: 20px;
 }
 
